@@ -20,6 +20,16 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Quick Demo
+
+For a quick demonstration (trains for 1000 iterations instead of 5000):
+
+```bash
+python demo.py
+```
+
+This will train a smaller model and show sample text generation in under 10 minutes on CPU.
+
 ### Training
 
 Train the model on the Shakespeare dataset:
